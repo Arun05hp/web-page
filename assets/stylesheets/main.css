@@ -1,0 +1,103 @@
+body{
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+div.navbar{
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+}
+.navbar .navbar-brand,.navbar-default .navbar-nav  li  a{
+	color: white;
+	font-weight: 700;
+	word-spacing: 5px;
+}
+span.text-success{
+	font-weight: 700;
+}
+div.col-sm-12 hr{
+	width:200px;
+	border-width: 2px;
+	border-color: silver;
+}
+div.box2 h1,div.box2 p,div.box2 i{
+	color: white;
+}
+div.box2 h1{
+	margin-top: 200px;
+	
+}
+div.box2 h1,div.box2 p{
+	letter-spacing: 8px;
+}
+div.box2 p,a.style i{
+     margin-top: 30px;
+}
+button.navbar-toggle{
+	background-color: #F39C12;
+}
+div.box{
+	background-image: url(../images/gm.jpg);
+	background-size: cover;
+	height: 600px;
+}
+a.style i,a.style1 i{
+	padding: 5px 15px 5px 15px;
+	border:1px solid white;
+	border-radius: 80%;
+}
+div.box1 i:hover,div.box3 i:hover{
+	color: #F39C12;
+	border-color:#F39C12 ;
+	background-color: white;
+	-webkit-transition: background-color 0.45s, color 0.35s ease-in-out;
+}
+div.box-1{
+	background-image: url(../images/box-1.jpg);
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+
+}
+div.box3{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+div.box3 h1{
+	margin-top: 50px;
+	letter-spacing: 10px;
+	color: white;
+}
+div.box3 p,div.box-4 p{
+	margin:30px;
+	color: white;
+	font-size: 18px;
+}
+div.box4,div.box-4{
+	margin:50px 0;
+}
+div.box-4,div.box5,div.copyright{
+	color: white;
+}
+div.row1,div.border{
+	border-bottom: 2px solid white;
+}
+div.b i{
+	color: white;
+	padding-right: 15px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+h1{
+        font-size:20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+	div.box3 p,div.box-4 p{
+		margin: 10px;
+		font-size: 14px;
+    }
+}

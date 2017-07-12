@@ -1,0 +1,44 @@
+*, *:before, *:after{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+     box-sizing:border-box;
+}
+.container{
+	max-width: 1200px;
+}
+.col.one{
+	width: 8.33%;
+}
+.col.two{
+	width: 16.66%;
+}
+.col.three{
+	width: 24.9%
+}
+.col.four{
+	width: 33.32%
+}
+.col.five{
+	width: 41.65%
+}
+.col.six{
+	width: 49.9%
+}
+.col.seven{
+	width: 58.3%
+}
+.col.eight{
+	width: 66.6%
+}
+.col.nine{
+	width: 74.9%
+}
+.col.ten{
+	width: 83.3%
+}
+.col.eleven{
+	width: 91.6%
+}
+.col.twelve{
+	width: 100%
+}
