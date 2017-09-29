@@ -46,6 +46,7 @@ a.style i,a.style1 i{
 	padding: 5px 15px 5px 15px;
 	border:1px solid white;
 	border-radius: 80%;
+	transition-duration: 0.9s;
 }
 div.box1 i:hover,div.box3 i:hover{
 	color: #F39C12;
